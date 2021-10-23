@@ -2,13 +2,11 @@ FROM node:lts
 
 WORKDIR /app
 
-COPY react-project/package.json /app
-
-COPY react-project/yarn.lock /app
+COPY react-project /app
 
 RUN yarn
 
-COPY react-project /app
+RUN yarn add node-sass
 
 EXPOSE 3000
 

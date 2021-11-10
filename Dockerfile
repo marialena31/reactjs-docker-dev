@@ -4,9 +4,13 @@ WORKDIR /app
 
 COPY react-project /app
 
-RUN yarn
-
 RUN yarn add node-sass
+
+RUN yarn add react-router-dom@5.3.0
+
+RUN yarn add firebase
+
+RUN yarn
 
 EXPOSE 3000
 

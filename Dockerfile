@@ -10,6 +10,8 @@ RUN yarn add react-router-dom@5.3.0
 
 RUN yarn add firebase
 
+RUN yarn add redux redux-logger react-redux redux-persist
+
 RUN yarn
 
 EXPOSE 3000

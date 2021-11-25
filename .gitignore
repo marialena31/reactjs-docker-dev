@@ -1,1 +1,4 @@
-./react-project/*
+react-project/
+package.json
+package-lock.json
+yarn.lock
